@@ -33,9 +33,9 @@ public class segitiga implements GLSurfaceView.Renderer {
 
     private void initShapes() {
         float vertices [] = {
-                -0.6f, -0.5f, 0,
-                0.6f, -0.5f, 0,
-                (float) 0.0, 0.5f, 0,
+                -0.8f, -0.5f, 0,
+                0.2f, -0.5f, 0,
+                0.0f, 0.5f, 0,
         };
         ByteBuffer vbb = ByteBuffer.allocateDirect(vertices.length*4);
         vbb.order(ByteOrder.nativeOrder());
